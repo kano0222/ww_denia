@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repository": "Arikatsu/WutheringWaves_Data",
+    "branch": "3.7",
+    "commit": "9218d612ad815e398e064e577e42aaf878899968",
+    "languages": [
+      "zh-Hans",
+      "ja"
+    ]
+  },
+  "claims": [
+    {
+      "id": "identity_origin_uncertain",
+      "status": "explicit_with_uncertainty",
+      "evidence": [
+        "FavorStory_121101_Content",
+        "Main_LahaiRoi_ZRJDYKX_46_5",
+        "Main_LahaiRoi_ZRJDYKX_65_14"
+      ]
+    },
+    {
+      "id": "identity_name_meaning",
+      "status": "explicit",
+      "evidence": [
+        "FavorStory_121101_Content"
+      ]
+    },
+    {
+      "id": "identity_vessel_plan",
+      "status": "explicit",
+      "evidence": [
+        "FavorStory_121102_Content",
+        "Zuoyequnxing_165_8",
+        "Zuoyequnxing_165_14"
+      ]
+    },
+    {
+      "id": "aleph_identity",
+      "status": "explicit",
+      "evidence": [
+        "MAIN_YHX_14_27",
+        "MAIN_YHX_55_20",
+        "Term750040_Desc"
+      ]
+    },
+    {
+      "id": "aleph_denia_connection",
+      "status": "explicit",
+      "evidence": [
+        "FavorStory_121102_Content",
+        "Main_LahaiRoi_ZRJDYKX_65_8",
+        "Main_LahaiRoi_ZRJDYKX_65_12"
+      ]
+    },
+    {
+      "id": "fractsidus_coercion",
+      "status": "explicit",
+      "evidence": [
+        "FavorStory_121101_Content",
+        "Zuoyequnxing_165_8",
+        "Main_LahaiRoi_ZRJDYKX_7_7"
+      ]
+    },
+    {
+      "id": "rover_relationship",
+      "status": "explicit",
+      "evidence": [
+        "Main_LahaiRoi_ZRJDYKX_7_18",
+        "Main_LahaiRoi_ZRJDYKX_65_17",
+        "Main_LahaiRoi_ZRJDYKX_65_27",
+        "Main_LahaiRoi_ZRJDYKX_65_28"
+      ]
+    },
+    {
+      "id": "siglika_relationship",
+      "status": "explicit_and_summarized",
+      "evidence": [
+        "FavorStory_121103_Content",
+        "Main_LahaiRoi_YXBLDHJ_136_58",
+        "Main_LahaiRoi_YXBLDHJ_72_11",
+        "FavorWord_121113_Content"
+      ]
+    },
+    {
+      "id": "birthday_meaning",
+      "status": "explicit",
+      "evidence": [
+        "Main_LahaiRoi_ZRJDYKX_46_1",
+        "Main_LahaiRoi_ZRJDYKX_46_3",
+        "Main_LahaiRoi_ZRJDYKX_46_9",
+        "Main_LahaiRoi_ZRJDYKX_65_28"
+      ]
+    },
+    {
+      "id": "games_together",
+      "status": "explicit",
+      "evidence": [
+        "Main_LahaiRoi_ZRJDYKX_41_4",
+        "Main_LahaiRoi_ZRJDYKX_41_5",
+        "Main_LahaiRoi_ZRJDYKX_40_4"
+      ]
+    },
+    {
+      "id": "past_and_change",
+      "status": "explicit_and_summarized",
+      "evidence": [
+        "FavorStory_121102_Content",
+        "FavorStory_121105_Content",
+        "FavorWord_121104_Content",
+        "FavorWord_121131_Content"
+      ]
+    },
+    {
+      "id": "behavior_patterns",
+      "status": "inference_from_repeated_dialogue",
+      "evidence": [
+        "Main_LahaiRoi_YXBLDHJ_72_11",
+        "Main_LahaiRoi_YXBLDHJ_136_58",
+        "Main_LahaiRoi_ZRJDYKX_65_22",
+        "Main_LahaiRoi_ZRJDYKX_65_33"
+      ]
+    }
+  ],
+  "document_claims": {
+    "knowledge/identity/01_达妮娅的身份与来历.md": [
+      "identity_origin_uncertain",
+      "identity_name_meaning",
+      "identity_vessel_plan",
+      "past_and_change"
+    ],
+    "knowledge/identity/02_阿列夫一是谁.md": [
+      "aleph_identity",
+      "aleph_denia_connection",
+      "identity_vessel_plan"
+    ],
+    "knowledge/relationships/01_达妮娅与残星会.md": [
+      "fractsidus_coercion",
+      "identity_vessel_plan"
+    ],
+    "knowledge/relationships/02_达妮娅与漂泊者.md": [
+      "rover_relationship",
+      "birthday_meaning"
+    ],
+    "knowledge/relationships/03_达妮娅与西格莉卡.md": [
+      "siglika_relationship"
+    ],
+    "knowledge/events/01_生日同行与游戏.md": [
+      "birthday_meaning",
+      "games_together",
+      "siglika_relationship"
+    ],
+    "knowledge/events/02_达妮娅如何看待过去与未来.md": [
+      "identity_origin_uncertain",
+      "past_and_change"
+    ]
+  },
+  "text_id_sources": {
+    "FavorStory_121101_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorStory_121102_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorStory_121103_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorStory_121105_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121104_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121113_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121131_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "MAIN_YHX_14_27": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "MAIN_YHX_55_20": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_YXBLDHJ_136_58": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_YXBLDHJ_72_11": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_40_4": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_41_4": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_41_5": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_46_1": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_46_3": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_46_5": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_46_9": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_12": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_14": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_17": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_22": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_27": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_28": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_33": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_8": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_7_18": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_7_7": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Term750040_Desc": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Zuoyequnxing_165_14": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Zuoyequnxing_165_8": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    }
+  }
+}

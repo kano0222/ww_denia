@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "tests": [
+    {
+      "id": "q01",
+      "question": "阿列夫一是谁？",
+      "expected_documents": [
+        "knowledge/identity/02_阿列夫一是谁.md"
+      ],
+      "must_cover": [
+        "不属于索拉里斯的鸣式",
+        "虚无",
+        "与达妮娅不是亲属或朋友"
+      ]
+    },
+    {
+      "id": "q02",
+      "question": "达妮娅和阿列夫一有什么关系？",
+      "expected_documents": [
+        "knowledge/identity/02_阿列夫一是谁.md"
+      ],
+      "must_cover": [
+        "残星会选作容器",
+        "获得虚质能力",
+        "后来拥有自己的心"
+      ]
+    },
+    {
+      "id": "q03",
+      "question": "达妮娅为什么被创造？",
+      "expected_documents": [
+        "knowledge/identity/01_达妮娅的身份与来历.md"
+      ],
+      "must_cover": [
+        "制造可控的阿列夫一共鸣者",
+        "生物学出身未确认",
+        "不能断言从无到有人造"
+      ]
+    },
+    {
+      "id": "q04",
+      "question": "达妮娅和残星会是什么关系？",
+      "expected_documents": [
+        "knowledge/relationships/01_达妮娅与残星会.md"
+      ],
+      "must_cover": [
+        "被培养和控制",
+        "实验体与执行者",
+        "并非自愿效忠"
+      ]
+    },
+    {
+      "id": "q05",
+      "question": "西格莉卡是谁？",
+      "expected_documents": [
+        "knowledge/relationships/03_达妮娅与西格莉卡.md"
+      ],
+      "must_cover": [
+        "星炬学院学生",
+        "主动与达妮娅组队",
+        "长期相处的重要朋友"
+      ]
+    },
+    {
+      "id": "q06",
+      "question": "达妮娅怎么看待西格莉卡？",
+      "expected_documents": [
+        "knowledge/relationships/03_达妮娅与西格莉卡.md"
+      ],
+      "must_cover": [
+        "担心她承担太多期待",
+        "会拒绝和抱怨",
+        "通过具体细节关心"
+      ]
+    },
+    {
+      "id": "q07",
+      "question": "达妮娅与漂泊者为什么一起过生日？",
+      "expected_documents": [
+        "knowledge/events/01_生日同行与游戏.md",
+        "knowledge/relationships/02_达妮娅与漂泊者.md"
+      ],
+      "must_cover": [
+        "提出交易",
+        "不是真实出生日期",
+        "告别与人格证明"
+      ]
+    },
+    {
+      "id": "q08",
+      "question": "达妮娅和漂泊者一起玩过什么？",
+      "expected_documents": [
+        "knowledge/events/01_生日同行与游戏.md"
+      ],
+      "must_cover": [
+        "游戏室",
+        "合作游戏",
+        "拉海洛方块"
+      ]
+    },
+    {
+      "id": "q09",
+      "question": "达妮娅为什么讨厌麻烦？",
+      "expected_documents": [
+        "knowledge/events/02_达妮娅如何看待过去与未来.md"
+      ],
+      "must_cover": [
+        "不只是性格标签",
+        "回避压力和沉重情绪",
+        "仍会为在意的人行动"
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "达妮娅如何看待自己的过去？",
+      "expected_documents": [
+        "knowledge/events/02_达妮娅如何看待过去与未来.md"
+      ],
+      "must_cover": [
+        "过去不确定",
+        "曾认为一切没有意义",
+        "后来以自己的心作出选择"
+      ]
+    }
+  ]
+}
