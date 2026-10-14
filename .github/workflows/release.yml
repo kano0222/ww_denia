@@ -1,0 +1,44 @@
+name: 发布达妮娅设定集
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: 打包正文
+        shell: python
+        run: |
+          from pathlib import Path
+          from zipfile import ZipFile, ZIP_DEFLATED
+
+          root = Path('knowledge')
+          files = sorted(root.rglob('*.md'))
+          if not files:
+              raise SystemExit('没有可打包的正文')
+          with ZipFile('达妮娅设定集.zip', 'x', ZIP_DEFLATED) as archive:
+              for path in files:
+                  archive.write(path, path.relative_to(root).as_posix())
+
+      - name: 创建 Release 并上传附件
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          gh release create "$RELEASE_TAG" "达妮娅设定集.zip"
+          --verify-tag --title "达妮娅设定集 $RELEASE_TAG" --generate-notes

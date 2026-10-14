@@ -11,6 +11,48 @@
   },
   "claims": [
     {
+      "id": "frolova_relationship",
+      "status": "explicit_profile_voice",
+      "evidence": [
+        "FavorWord_121115_Title",
+        "FavorWord_121115_Content"
+      ]
+    },
+    {
+      "id": "hiyuki_relationship",
+      "status": "character_impression_with_uncertainty",
+      "evidence": [
+        "FavorWord_121114_Title",
+        "FavorWord_121114_Content"
+      ]
+    },
+    {
+      "id": "aemeath_relationship",
+      "status": "explicit_profile_voice_with_character_opinion",
+      "evidence": [
+        "FavorWord_121117_Title",
+        "FavorWord_121117_Content"
+      ]
+    },
+    {
+      "id": "mornye_relationship",
+      "status": "explicit_profile_voice_with_character_speculation",
+      "evidence": [
+        "FavorWord_121116_Title",
+        "FavorWord_121116_Content"
+      ]
+    },
+    {
+      "id": "nastasia_relationship",
+      "status": "explicit_and_summarized_with_localization_timing_difference",
+      "evidence": [
+        "Main_LahaiRoi_ZRJDYKX_44_35",
+        "Main_LahaiRoi_ZRJDYKX_49_3",
+        "Main_LahaiRoi_ZRJDYKX_46_23",
+        "Main_LahaiRoi_ZRJDYKX_65_30"
+      ]
+    },
+    {
       "id": "identity_origin_uncertain",
       "status": "explicit_with_uncertainty",
       "evidence": [
@@ -37,7 +79,7 @@
     },
     {
       "id": "aleph_identity",
-      "status": "explicit",
+      "status": "explicit_with_hypothesis",
       "evidence": [
         "MAIN_YHX_14_27",
         "MAIN_YHX_55_20",
@@ -120,42 +162,259 @@
         "Main_LahaiRoi_ZRJDYKX_65_22",
         "Main_LahaiRoi_ZRJDYKX_65_33"
       ]
+    },
+    {
+      "id": "identity_registry_disputed",
+      "status": "explicit_with_disputed_record",
+      "evidence": [
+        "FavorRoleInfo_1211_TalentDoc",
+        "FavorWord_121111_Content"
+      ]
+    },
+    {
+      "id": "aleph_attitude_interpretation",
+      "status": "attributed_item_quote",
+      "evidence": [
+        "FavorGoods_121103_Content"
+      ]
+    },
+    {
+      "id": "aleph_lingering_influence",
+      "status": "explicit_without_voice_timeline",
+      "evidence": [
+        "FavorWord_121107_Content",
+        "FavorWord_121129_Content"
+      ]
+    },
+    {
+      "id": "fractsidus_autonomy",
+      "status": "explicit_and_summarized",
+      "evidence": [
+        "FavorStory_121104_Content",
+        "Main_LahaiRoi_ZRJDYKX_7_18",
+        "Main_LahaiRoi_ZRJDYKX_65_27"
+      ]
+    },
+    {
+      "id": "rover_reunion_wish",
+      "status": "explicit_future_wish",
+      "evidence": [
+        "Main_LahaiRoi_ZRJDYKX_65_30",
+        "Main_LahaiRoi_ZRJDYKX_65_32",
+        "Main_LahaiRoi_ZRJDYKX_65_37"
+      ]
+    },
+    {
+      "id": "daily_rest_and_teacher",
+      "status": "explicit_profile_voice",
+      "evidence": [
+        "FavorWord_121106_Content",
+        "FavorWord_121116_Content"
+      ]
+    },
+    {
+      "id": "daily_food",
+      "status": "explicit_item_description_and_profile_voice",
+      "evidence": [
+        "ItemInfo_80001071_BgDescription",
+        "FavorWord_121109_Content"
+      ]
+    },
+    {
+      "id": "daily_album",
+      "status": "explicit_item_description",
+      "evidence": [
+        "FavorGoods_121102_Content"
+      ]
+    },
+    {
+      "id": "daily_doll_and_garden",
+      "status": "explicit_item_description_and_profile_voice",
+      "evidence": [
+        "FavorGoods_121101_Content",
+        "FavorWord_121112_Content"
+      ]
+    },
+    {
+      "id": "future_wishes",
+      "status": "explicit_future_wish_without_voice_timeline",
+      "evidence": [
+        "Main_LahaiRoi_ZRJDYKX_65_30",
+        "Main_LahaiRoi_ZRJDYKX_65_31",
+        "Main_LahaiRoi_ZRJDYKX_65_32",
+        "FavorWord_121110_Content"
+      ]
+    },
+    {
+      "id": "birthday_cake_voice_time_boundary",
+      "status": "explicit_profile_voice_without_story_timeline",
+      "evidence": [
+        "FavorWord_121108_Content"
+      ]
     }
   ],
   "document_claims": {
+    "knowledge/relationships/04_达妮娅认识的人们.md": [
+      "mornye_relationship",
+      "nastasia_relationship",
+      "hiyuki_relationship",
+      "aemeath_relationship"
+    ],
     "knowledge/identity/01_达妮娅的身份与来历.md": [
       "identity_origin_uncertain",
       "identity_name_meaning",
       "identity_vessel_plan",
-      "past_and_change"
+      "past_and_change",
+      "identity_registry_disputed",
+      "birthday_meaning",
+      "siglika_relationship",
+      "fractsidus_coercion",
+      "nastasia_relationship"
     ],
     "knowledge/identity/02_阿列夫一是谁.md": [
       "aleph_identity",
       "aleph_denia_connection",
-      "identity_vessel_plan"
+      "identity_vessel_plan",
+      "aleph_attitude_interpretation",
+      "aleph_lingering_influence",
+      "past_and_change"
     ],
     "knowledge/relationships/01_达妮娅与残星会.md": [
       "fractsidus_coercion",
-      "identity_vessel_plan"
+      "identity_vessel_plan",
+      "fractsidus_autonomy",
+      "frolova_relationship",
+      "past_and_change"
     ],
     "knowledge/relationships/02_达妮娅与漂泊者.md": [
       "rover_relationship",
-      "birthday_meaning"
+      "birthday_meaning",
+      "rover_reunion_wish",
+      "fractsidus_autonomy",
+      "games_together"
     ],
     "knowledge/relationships/03_达妮娅与西格莉卡.md": [
-      "siglika_relationship"
+      "siglika_relationship",
+      "birthday_meaning"
     ],
     "knowledge/events/01_生日同行与游戏.md": [
       "birthday_meaning",
       "games_together",
-      "siglika_relationship"
+      "siglika_relationship",
+      "birthday_cake_voice_time_boundary",
+      "identity_origin_uncertain"
     ],
     "knowledge/events/02_达妮娅如何看待过去与未来.md": [
       "identity_origin_uncertain",
-      "past_and_change"
+      "past_and_change",
+      "future_wishes",
+      "aleph_lingering_influence",
+      "aleph_denia_connection"
+    ],
+    "knowledge/daily/01_学院生活与偏好.md": [
+      "daily_rest_and_teacher",
+      "daily_food",
+      "daily_album",
+      "daily_doll_and_garden"
     ]
   },
+  "section_claims": {
+    "knowledge/relationships/04_达妮娅认识的人们.md": {
+      "莫宁：她喜欢的老师": ["mornye_relationship"],
+      "娜斯塔霞：学院里的照顾与牵挂": ["nastasia_relationship"],
+      "绯雪：强大、温柔与未解的疑问": ["hiyuki_relationship"],
+      "爱弥斯：飞行雪绒与学院明星": ["aemeath_relationship"]
+    },
+    "knowledge/identity/01_达妮娅的身份与来历.md": {
+      "引言": ["identity_registry_disputed", "siglika_relationship", "nastasia_relationship"],
+      "残星会与“被创造”": ["identity_origin_uncertain", "identity_vessel_plan", "fractsidus_coercion"],
+      "出生与记忆的未知": ["identity_origin_uncertain"],
+      "名字与作为人的愿望": ["identity_name_meaning", "birthday_meaning", "past_and_change"]
+    },
+    "knowledge/identity/02_阿列夫一是谁.md": {
+      "已知性质与研究解释": ["aleph_identity", "aleph_attitude_interpretation"],
+      "与达妮娅的联系": ["aleph_denia_connection", "identity_vessel_plan"],
+      "锚点、碎片与未结束的影响": ["aleph_denia_connection", "past_and_change", "aleph_lingering_influence"]
+    },
+    "knowledge/relationships/01_达妮娅与残星会.md": {
+      "弗洛洛：交谈与小提琴": ["frolova_relationship"],
+      "被培养与利用": ["fractsidus_coercion", "identity_vessel_plan"],
+      "实际参与与自主性": ["fractsidus_coercion", "fractsidus_autonomy"],
+      "后来的选择": ["fractsidus_autonomy", "past_and_change"]
+    },
+    "knowledge/relationships/02_达妮娅与漂泊者.md": {
+      "早期敌对与复杂看法": ["rover_relationship", "fractsidus_autonomy"],
+      "生日交易与同行": ["rover_relationship", "birthday_meaning", "games_together"],
+      "留言与重逢": ["rover_reunion_wish"]
+    },
+    "knowledge/relationships/03_达妮娅与西格莉卡.md": {
+      "相识": ["siglika_relationship"],
+      "熟悉、照顾与拒绝": ["siglika_relationship"],
+      "生日、告别与牵挂": ["siglika_relationship", "birthday_meaning"]
+    },
+    "knowledge/events/01_生日同行与游戏.md": {
+      "玩过什么游戏、擅长什么": ["games_together"],
+      "为什么过生日": ["birthday_meaning", "identity_origin_uncertain"],
+      "学院同行与朋友": ["birthday_meaning", "games_together", "siglika_relationship"],
+      "资料语音中的生日蛋糕": ["birthday_meaning", "birthday_cake_voice_time_boundary"]
+    },
+    "knowledge/events/02_达妮娅如何看待过去与未来.md": {
+      "曾经的虚无感": ["identity_origin_uncertain", "past_and_change"],
+      "心与自己的选择": ["past_and_change", "aleph_denia_connection"],
+      "具体的未来愿望": ["future_wishes", "aleph_lingering_influence"]
+    },
+    "knowledge/daily/01_学院生活与偏好.md": {
+      "休息、课程与甜食": ["daily_rest_and_teacher"],
+      "果酱与食物": ["daily_food"],
+      "相册与学院活动": ["daily_album"],
+      "随身玩偶与旧日小花园": ["daily_doll_and_garden"]
+    }
+  },
   "text_id_sources": {
+    "FavorWord_121113_Title": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121115_Title": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121115_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121114_Title": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121114_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121117_Title": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121117_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121116_Title": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_44_35": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_49_3": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_46_23": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
     "FavorStory_121101_Content": {
       "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
       "ja": "Textmaps/ja/multi_text/MultiText.json"
@@ -277,6 +536,102 @@
       "ja": "Textmaps/ja/multi_text/MultiText.json"
     },
     "Zuoyequnxing_165_8": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorGoods_121101_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorGoods_121102_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorGoods_121103_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorRoleInfo_1211_TalentDoc": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorStory_121104_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121106_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121107_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121108_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121109_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121110_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121111_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121112_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121116_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121129_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "ItemInfo_80001071_BgDescription": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_30": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_31": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_32": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_65_37": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "FavorWord_121196_Content": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_YXBLDHJ_72_6": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_40_3": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_7_28": {
+      "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
+      "ja": "Textmaps/ja/multi_text/MultiText.json"
+    },
+    "Main_LahaiRoi_ZRJDYKX_7_30": {
       "zh_Hans": "Textmaps/zh-Hans/multi_text/MultiText.json",
       "ja": "Textmaps/ja/multi_text/MultiText.json"
     }
