@@ -54,7 +54,7 @@ ww_denia/
 
 ## 使用建议
 
-[Releases](https://github.com/kano0222/ww_denia/releases) 中的 `达妮娅设定集.zip` 仅收录正文，保留身份、人物关系、事件和日常的分类目录，不含人格、出处索引与验证题。推送 `v` 开头的版本标签时自动生成。
+[Releases](https://github.com/kano0222/ww_denia/releases) 中的「达妮娅设定集.zip」仅收录正文，保留身份、人物关系、事件和日常的分类目录，不含人格、出处索引与验证题。因 GitHub 附件命名限制，下载文件名为 `denia.zip`。推送 `v` 开头的版本标签时自动生成。
 
 - 需要人物事实时使用 `knowledge/`。
 - 需要角色扮演或对话风格时参考 `persona/denia_agent.md`。

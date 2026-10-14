@@ -30,7 +30,7 @@ jobs:
           files = sorted(root.rglob('*.md'))
           if not files:
               raise SystemExit('没有可打包的正文')
-          with ZipFile('达妮娅设定集.zip', 'x', ZIP_DEFLATED) as archive:
+          with ZipFile('denia.zip', 'x', ZIP_DEFLATED) as archive:
               for path in files:
                   archive.write(path, path.relative_to(root).as_posix())
 
@@ -40,5 +40,5 @@ jobs:
           GH_REPO: ${{ github.repository }}
           RELEASE_TAG: ${{ github.ref_name }}
         run: >-
-          gh release create "$RELEASE_TAG" "达妮娅设定集.zip"
+          gh release create "$RELEASE_TAG" "denia.zip#达妮娅设定集.zip"
           --verify-tag --title "达妮娅设定集 $RELEASE_TAG" --generate-notes
