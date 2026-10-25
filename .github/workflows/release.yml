@@ -41,5 +41,4 @@ jobs:
           RELEASE_TAG: ${{ github.ref_name }}
         run: >-
           gh release create "$RELEASE_TAG" "denia.zip#达妮娅设定集.zip"
-          "persona/denia_agent.md#达妮娅角色卡.md"
           --verify-tag --title "达妮娅设定集 $RELEASE_TAG" --generate-notes
